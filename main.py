@@ -11,7 +11,7 @@ NOME_PLANILHA = "dados.xlsx"
 INPUT_EXCEL = os.path.join(BASE_DIR, NOME_PLANILHA)
 
 # Caminho do Modelo dentro da pasta assets
-MODELO_PATH = os.path.join(BASE_DIR, "assets", "modelo_protocolo.png")
+MODELO_PATH = os.path.join(BASE_DIR, "modelo_protocolo.png")
 
 # No Codespaces, vamos salvar em uma pasta dentro do próprio projeto para você poder baixar
 OUTPUT_DIR = os.path.join(BASE_DIR, "protocolos_prontos")
